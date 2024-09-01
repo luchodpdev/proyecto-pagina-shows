@@ -6,11 +6,12 @@ export function Header () {
     return (
         <header className="header">
             <div>
-                <strong>Lucho De Pasquale</strong>
+                <strong className='title'>Lucho De Pasquale</strong>
                 <img src='./pngwing.png' />
             </div>
 
-            <div>
+            <div className='enlaces'>
+            <input type='text' className='button'/>
             <a>Shows</a>
             <a>Albums</a>
             <a>Quien soy</a>
